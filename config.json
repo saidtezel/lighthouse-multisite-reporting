@@ -1,0 +1,14 @@
+{
+  "projectId": "found-lighthouse-audits",
+  "opsProjectId": "found-budget-tracker",
+  "pubsubTopicId": "launch-lighthouse",
+  "datasetId": "lighthouse",
+  "minTimeBetweenTriggers": 300000,
+  "gcs": {
+    "bucketName": "lighthouse-reports"
+  },
+  "lighthouseFlags": {
+    "output": ["html", "csv"],
+    "emulatedFormFactor": "desktop"
+  }
+}
